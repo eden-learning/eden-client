@@ -1,10 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Eden Client
 
-In the project directory, you can run:
 
-### `npm start`
+## Getting Started
+
+1. Clone the project locally.
+
+  ```
+  $ git clone https://github.com/eden-learning/eden-client.git
+  ```
+
+
+2. Create a new branch for each separate piece of work.
+
+  ```
+  $ git checkout -b <your-feature-name>
+  ```
+
+3. Once you are done with your feature, test your changes and make a commit. Please make sure your commits follow  [conventional commits](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+
+  ```
+  $ git commit -m "featue: Summary of changes"
+  $ git push
+  ```
+
+4. Make a pull request to merge your branch into `master` and notify someone to review your work.
+
+## Scripts
+
+ There are some scrips defined in the `package.json` to make development easier. In the project directory, you can run:
+
+ ### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -27,42 +53,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Useful Resources
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [React](https://reactjs.org/docs/getting-started.html)
+* [React Router](https://reacttraining.com/react-router/web)
+* [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
