@@ -20,7 +20,7 @@
 3. Once you are done with your feature, test your changes and make a commit. Please make sure your commits follow  [conventional commits](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
 
   ```
-  $ git commit -m "featue: Summary of changes"
+  $ git commit -m "feature: Summary of changes"
   $ git push
   ```
 
