@@ -1,36 +1,39 @@
-
 # Eden Client
-
 
 ## Getting Started
 
 1. Clone the project locally.
 
-  ```
-  $ git clone https://github.com/eden-learning/eden-client.git
-  ```
+```
+$ git clone https://github.com/eden-learning/eden-client.git
+```
 
+2. To install dependencies locally, run
 
-2. Create a new branch for each separate piece of work.
+```
+$ npm install
+```
 
-  ```
-  $ git checkout -b <your-feature-name>
-  ```
+3. Create a new branch for each separate piece of work.
 
-3. Once you are done with your feature, test your changes and make a commit. Please make sure your commits follow  [conventional commits](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+```
+$ git checkout -b <your-feature-name>
+```
 
-  ```
-  $ git commit -m "feature: Summary of changes"
-  $ git push
-  ```
+4. Once you are done with your feature, test your changes and make a commit. Please make sure your commits follow [conventional commits](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
 
-4. Make a pull request to merge your branch into `master` and notify someone to review your work.
+```
+$ git commit -m "feature: Summary of changes"
+$ git push
+```
+
+5. Make a pull request to merge your branch into `master` and notify someone to review your work.
 
 ## Scripts
 
- There are some scrips defined in the `package.json` to make development easier. In the project directory, you can run:
+There are some scrips defined in the `package.json` to make development easier. In the project directory, you can run:
 
- ### `npm start`
+### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -55,7 +58,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Useful Resources
 
-* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [React](https://reactjs.org/docs/getting-started.html)
-* [React Router](https://reacttraining.com/react-router/web)
-* [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [React](https://reactjs.org/docs/getting-started.html)
+- [React Router](https://reacttraining.com/react-router/web)
+- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
