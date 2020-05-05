@@ -64,29 +64,57 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
 
-Steps to deploy to firebase hosting
-### npm install -g firebase tools  
-One time step
+## Deploy website to firebase
 
-### firebase logout 
-//(Just in case you already logged in)
+1. Install firebase tools
 
-### firebase login
-userId and pass: See discord website chat
+```
+$ npm install -g firebase tools  
+```
 
-### firebase init
+2. Logout from firebase in case you were logged in previously
 
-Set public folder as ./build
+```
+$ firebase logout 
+```
 
-Configure as single page app. (Y)
+3. Login to firebase account using gmail
 
-### npm run build
+```
+$ firebase login
+```
 
-Deploy to both test and prod
-### firebase deploy
+4. Initialize firebase project
 
-Test deployment only
-### firebase deploy --only hosting:eden-test
+```
+$ firebase init
+```
 
-Production deployment only
-### firebase deploy --only hosting:eden-5d453
+5. Set public folder as ./build
+
+6. Configure as single page app. (Yes)
+
+7. Build the project
+
+```
+$ npm run build
+```
+
+8. Deployment
+### Deploy to both test and production
+
+```
+$ firebase deploy
+```
+
+###  Deploy to test only
+
+```
+$ firebase deploy --only hosting:eden-test
+```
+
+###  Deploy to production only
+
+```
+$ firebase deploy --only hosting:eden-5d453
+```
