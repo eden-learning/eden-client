@@ -62,3 +62,31 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - [React](https://reactjs.org/docs/getting-started.html)
 - [React Router](https://reacttraining.com/react-router/web)
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+
+
+Steps to deploy to firebase hosting
+### npm install -g firebase tools  
+One time step
+
+### firebase logout 
+//(Just in case you already logged in)
+
+### firebase login
+userId and pass: See discord website chat
+
+### firebase init
+
+Set public folder as ./build
+
+Configure as single page app. (Y)
+
+### npm run build
+
+Deploy to both test and prod
+### firebase deploy
+
+Test deployment only
+### firebase deploy --only hosting:eden-test
+
+Production deployment only
+### firebase deploy --only hosting:eden-5d453
