@@ -66,55 +66,33 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Deploy website to firebase
 
-1. Install firebase tools
-
-```
-$ npm install -g firebase tools  
-```
-
-2. Logout from firebase in case you were logged in previously
+1. Logout from firebase in case you were logged in previously to another account
 
 ```
 $ firebase logout 
 ```
 
-3. Login to firebase account using gmail
+2. Login to the Eden firebase account using gmail
 
 ```
 $ firebase login
 ```
 
-4. Initialize firebase project
-
-```
-$ firebase init
-```
-
-5. Set public folder as ./build
-
-6. Configure as single page app. (Yes)
-
-7. Build the project
-
-```
-$ npm run build
-```
-
-8. Deployment
-### Deploy to both test and production
-
-```
-$ firebase deploy
-```
-
+3. Deployment
 ###  Deploy to test only
 
 ```
-$ firebase deploy --only hosting:eden-test
+$  npm run deploy-test
 ```
 
 ###  Deploy to production only
 
 ```
-$ firebase deploy --only hosting:eden-5d453
+$ npm run deploy-prod
+```
+
+###  Deploy to production and test
+
+```
+$ npm run deploy
 ```
