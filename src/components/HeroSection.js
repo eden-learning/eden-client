@@ -4,7 +4,7 @@ import hero from '../assets/hero-page.svg';
 
 export default function HeroSection() {
   return (
-    <div>
+    <section>
       <div>
         <div>
           <div>
@@ -32,6 +32,6 @@ export default function HeroSection() {
         We&apos;re building a platform with the individual attention of a
         personal tutor and engagement of the most creative teacher.
       </h3>
-    </div>
+    </section>
   );
 }
