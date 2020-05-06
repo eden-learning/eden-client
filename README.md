@@ -62,3 +62,37 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - [React](https://reactjs.org/docs/getting-started.html)
 - [React Router](https://reacttraining.com/react-router/web)
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+
+
+## Deploy website to firebase
+
+1. Logout from firebase in case you were logged in previously to another account
+
+```
+$ firebase logout 
+```
+
+2. Login to the Eden firebase account using gmail
+
+```
+$ firebase login
+```
+
+3. Deployment
+###  Deploy to test only
+
+```
+$  npm run deploy-test
+```
+
+###  Deploy to production only
+
+```
+$ npm run deploy-prod
+```
+
+###  Deploy to production and test
+
+```
+$ npm run deploy
+```
