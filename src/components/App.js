@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroSection from './HeroSection';
 import SectionTwo from './SectionTwo';
+import SectionThree from './SectionThree';
 import '../styles/App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <HeroSection />
       <SectionTwo />
+      <SectionThree />
     </div>
   );
 }
