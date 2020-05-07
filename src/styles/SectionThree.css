@@ -1,0 +1,45 @@
+:root {
+  --box-bg-red: #ed427a;
+  --box-bg-yellow: #fcbb10;
+  --box-bg-blue: #008ecf;
+  --box-bg-green: #3ddc97;
+  --box-bg-violet: #556efd;
+}
+
+.SectionThree {
+  margin: 5rem 0;
+}
+
+.section3-rotate {
+  transform: rotate(-90deg);
+}
+
+.box {
+  padding: 50px;
+  border-radius: 17px;
+}
+
+.box-red {
+  background-color: var(--box-bg-red);
+}
+
+.box-yellow {
+  background-color: var(--box-bg-yellow);
+}
+
+.box-blue {
+  background-color: var(--box-bg-blue);
+}
+
+.box-green {
+  background-color: var(--box-bg-green);
+}
+
+.box-violet {
+  background-color: var(--box-bg-violet);
+  white-space: nowrap;
+}
+
+.box p {
+  margin-bottom: 0;
+}
