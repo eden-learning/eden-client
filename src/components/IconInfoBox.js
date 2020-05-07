@@ -1,5 +1,5 @@
 import React from 'react';
-import icon from '../assets/icon1.png';
+import icon from '../assets/icon-video.png';
 
 function IconInfoBox() {
   return (
