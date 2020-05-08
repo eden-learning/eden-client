@@ -1,10 +1,10 @@
 import React from 'react';
 import IconInfoBox from './IconInfoBox';
 import studentImg from '../assets/student-at-computer.svg';
-import iconVideo from '../assets/icon-video.png';
-import iconJigsaw from '../assets/icon-jigsaw.png';
-import iconJuicebox from '../assets/icon-juicebox.png';
-import iconRibbon from '../assets/icon-ribbon.png';
+import iconVideo from '../assets/icon-video.svg';
+import iconJigsaw from '../assets/icon-jigsaw.svg';
+import iconJuicebox from '../assets/icon-juicebox.svg';
+import iconRibbon from '../assets/icon-ribbon.svg';
 
 function SectionTwo() {
   return (
