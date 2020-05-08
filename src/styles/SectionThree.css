@@ -1,0 +1,75 @@
+:root {
+  --box-bg-red: #ed427a;
+  --box-bg-yellow: #fcbb10;
+  --box-bg-blue: #008ecf;
+  --box-bg-green: #3ddc97;
+  --box-bg-violet: #556efd;
+  --fc-white: #ffffff;
+}
+
+.SectionThree {
+  color: var(--fc-white);
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 2.5rem;
+  grid-template-columns: 1fr 5fr 5fr;
+  color: #444;
+}
+
+.box {
+  color: var(--fc-white);
+  border-radius: 17px;
+  font-size: 1.5rem;
+}
+
+.section3-rotate {
+  transform: rotate(180deg);
+}
+
+.alignment {
+  text-orientation: sideways;
+  writing-mode: vertical-lr;
+}
+
+.about {
+  margin: 40% auto;
+}
+
+.help {
+  margin: 20% auto;
+}
+
+.box-red {
+  background-color: var(--box-bg-red);
+  padding: 50px;
+}
+
+.box-yellow {
+  background-color: var(--box-bg-yellow);
+  padding: 50px;
+}
+
+.box-blue {
+  background-color: var(--box-bg-blue);
+  padding: 50px;
+}
+
+.box-green {
+  background-color: var(--box-bg-green);
+  padding: 50px;
+}
+
+.box-violet {
+  background-color: var(--box-bg-violet);
+  border-radius: 17px;
+  color: var(--fc-white);
+  font-size: 1.625rem;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.box p {
+  margin-bottom: 0;
+}

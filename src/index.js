@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './styles/index.css';
 import './styles/SectionTwo.css';
 import './styles/IconInfoBox.css';
+import './styles/SectionThree.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
