@@ -5,23 +5,27 @@ import logo from '../assets/eden-logo-2.svg';
 
 function Navbar() {
   return (
-    <nav>
-      <div className="navbar__logo-container">
-        <img className="navbar__logo" src={logo} alt="Eden Logo" />
-      </div>
-      <ul className="navbar__container">
-        <li className="navbar__item">
-          <a className="navbar__link" href="#platform">
+    <nav className="navbar navbar-expand-sm nabvar-light">
+      <a
+        className="navbar_brand pt-4 pl-5 pb-4"
+        id="logo-container"
+        href="#home"
+      >
+        <img src={logo} alt="Eden Logo" />
+      </a>
+      <ul className="navbar-nav ml-auto mr-5 pr-3">
+        <li className="nav-item p-2">
+          <a className="nav-link" href="#platform">
             Our Platform
           </a>
         </li>
-        <li className="navbar__item">
-          <a className="navbar__link" href="#help">
+        <li className="nav-item p-2">
+          <a className="nav-link" href="#help">
             How to help
           </a>
         </li>
-        <li className="navbar__item">
-          <a className="navbar__link" href="#about">
+        <li className="nav-item p-2">
+          <a className="nav-link" href="#about">
             About Us
           </a>
         </li>
