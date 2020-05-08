@@ -4,39 +4,63 @@
   --box-bg-blue: #008ecf;
   --box-bg-green: #3ddc97;
   --box-bg-violet: #556efd;
+  --fc-white: #ffffff;
 }
 
 .SectionThree {
-  margin: 5rem 0;
+  color: var(--fc-white);
 }
 
-.section3-rotate {
-  transform: rotate(-90deg);
+.wrapper {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 5fr 5fr;
+  color: #444;
 }
 
 .box {
-  padding: 50px;
+  color: var(--fc-white);
   border-radius: 17px;
+  font-size: 1.5rem;
+}
+
+.section3-rotate {
+  transform: rotate(180deg);
+}
+
+.alignment {
+  align-self: center;
+  justify-self: center;
+  text-orientation: sideways;
+  writing-mode: vertical-lr;
 }
 
 .box-red {
   background-color: var(--box-bg-red);
+  padding: 50px;
 }
 
 .box-yellow {
   background-color: var(--box-bg-yellow);
+  padding: 50px;
 }
 
 .box-blue {
   background-color: var(--box-bg-blue);
+  padding: 50px;
 }
 
 .box-green {
   background-color: var(--box-bg-green);
+  padding: 50px;
 }
 
 .box-violet {
   background-color: var(--box-bg-violet);
+  border-radius: 17px;
+  color: var(--fc-white);
+  font-size: 1.625rem;
+  padding: 10px;
   white-space: nowrap;
 }
 

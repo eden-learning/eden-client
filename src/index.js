@@ -2,12 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/index.css';
-<<<<<<< HEAD
-import './styles/SectionThree.css';
-=======
 import './styles/SectionTwo.css';
 import './styles/IconInfoBox.css';
->>>>>>> master
+import './styles/SectionThree.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
