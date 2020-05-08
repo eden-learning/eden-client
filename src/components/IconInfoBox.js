@@ -1,13 +1,19 @@
 import React from 'react';
-import icon from '../assets/icon1.png';
+import PropTypes from 'prop-types';
 
-function IconInfoBox() {
+function IconInfoBox(props) {
+  const { icon, text } = props;
   return (
-    <div className="IconInfoBox">
+    <div className="IconInfoBox p-3 m-3">
       <img className="icon" src={icon} alt="ribbon" />
-      <p>By curating free resources, we are low-cost and accessible for all.</p>
+      <p className="mt-5">{text}</p>
     </div>
   );
 }
+
+IconInfoBox.propTypes = {
+  text: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+};
 
 export default IconInfoBox;
