@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function IconInfoBox(props) {
   const { icon, text } = props;
@@ -9,5 +10,10 @@ function IconInfoBox(props) {
     </div>
   );
 }
+
+IconInfoBox.propTypes = {
+  text: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+};
 
 export default IconInfoBox;
