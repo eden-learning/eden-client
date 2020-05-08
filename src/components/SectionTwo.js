@@ -5,10 +5,17 @@ import iconVideo from '../assets/icon-video.svg';
 import iconJigsaw from '../assets/icon-jigsaw.svg';
 import iconJuicebox from '../assets/icon-juicebox.svg';
 import iconRibbon from '../assets/icon-ribbon.svg';
+import '../styles/SectionTwo.css';
 
 function SectionTwo() {
   return (
-    <section className="SectionTwo container">
+    <section id="platform" className="SectionTwo container">
+      <div className="row justify-content-center text-align-center">
+        <h3 className="section-2-text-block col-sm col-lg-9 mt-5 mb-5">
+          We&apos;re building a platform with the individual attention of a
+          personal tutor and engagement of the most creative teacher.
+        </h3>
+      </div>
       <div className="row justify-content-between">
         <div className="section2-img-wrapper align-self-center p-0 col-sm col-lg-6">
           <img

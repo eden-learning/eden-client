@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/SectionThree.css';
 
 function SectionThree() {
   return (
     <section className="SectionThree container">
-      <div className="wrapper mb-5">
+      <div id="about" className="wrapper mb-5">
         <div className="box-violet">
           <p className="section3-rotate alignment font-weight-bold d-block about">
             ABOUT US
@@ -18,7 +19,7 @@ function SectionThree() {
           technologists!
         </div>
       </div>
-      <div className="wrapper">
+      <div id="help" className="wrapper">
         <div className="box-violet">
           <p className="section3-rotate alignment help">HOW TO HELP</p>
         </div>

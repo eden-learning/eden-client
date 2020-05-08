@@ -1,0 +1,30 @@
+.logo {
+  display: none;
+}
+.hero-section-text {
+  color: #46237a;
+}
+.hero-section-title {
+  color: #3ddc97;
+}
+
+.form-control {
+  border-radius: 1rem;
+  border-color: #3ddc97;
+}
+
+.btn {
+  border-radius: 1rem;
+  background-color: #3ddc97;
+}
+
+.btn-secondary {
+  border-color: #3ddc97;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    display: block;
+  }
+}

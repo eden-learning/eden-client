@@ -5,7 +5,7 @@ import logo from '../assets/eden-logo-2.svg';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-md navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <a
         className="navbar_brand pt-4 pl-5 pb-4"
         id="logo-container"
@@ -26,7 +26,7 @@ function Navbar() {
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto mr-5 pr-3">
-          <li className="nav-item active p-2">
+          <li className="nav-item p-2">
             <a className="nav-link " href="#platform">
               Our Platform
             </a>

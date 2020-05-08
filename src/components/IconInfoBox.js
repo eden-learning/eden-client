@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../styles/IconInfoBox.css';
 
 function IconInfoBox(props) {
   const { icon, text } = props;
