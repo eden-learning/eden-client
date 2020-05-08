@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.nav-link{
+.nav-link {
   font-family: Montserrat;
   color: #46237a;
 }
 
-#logo-container{
+#logo-container {
   overflow: hidden;
   max-width: 120px;
 }
