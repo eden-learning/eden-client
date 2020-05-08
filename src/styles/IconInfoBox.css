@@ -1,0 +1,14 @@
+.IconInfoBox {
+  background-color: #f6f6f6;
+  border-radius: 17px;
+  font-size: 1.125rem;
+  min-height: 295px;
+}
+
+.IconInfoBox p {
+  color: rgba(90, 90, 90, 0.85);
+}
+
+.icon {
+  max-width: 85px;
+}
