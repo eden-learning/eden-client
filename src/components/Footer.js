@@ -50,7 +50,7 @@ export default function Footer() {
             <a href="#instagram">
               <i className="fa fa-instagram rounded-circle fa-2x bg-white m-4 p-3" />
             </a>
-            <a href="#instagram">
+            <a href="#linkedin">
               <i className="fa fa-linkedin rounded-circle fa-2x bg-white m-4 p-3" />
             </a>
           </div>
