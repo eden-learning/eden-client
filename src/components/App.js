@@ -2,8 +2,9 @@ import React from 'react';
 import HeroSection from './HeroSection';
 import SectionTwo from './SectionTwo';
 import SectionThree from './SectionThree';
-import '../styles/App.css';
 import Navbar from './Navbar';
+import Footer from './Footer';
+import '../styles/App.css';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <SectionTwo />
       <SectionThree />
+      <Footer />
     </div>
   );
 }
