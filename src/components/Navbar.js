@@ -6,15 +6,11 @@ import logo from '../assets/eden-logo-2.svg';
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
-      <a
-        className="navbar_brand pt-4 pl-5 pb-4"
-        id="logo-container"
-        href="#home"
-      >
-        <img src={logo} alt="Eden Logo" />
+      <a className="navbar-brand pt-4 pb-4 logo-container" href="#home">
+        <img className="navbar-logo" src={logo} alt="Eden Logo" />
       </a>
       <button
-        className="navbar-toggler"
+        className="navbar-toggler order-first"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -22,8 +18,13 @@ function Navbar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon" />
+        <span className="navbar-toggler-icon " />
       </button>
+      <button
+        className="navbar-toggler"
+        type="button"
+        aria-label="for alignment only"
+      />
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto mr-5 pr-3">
           <li className="nav-item p-2">

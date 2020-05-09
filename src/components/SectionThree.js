@@ -3,7 +3,7 @@ import '../styles/SectionThree.css';
 
 function SectionThree() {
   return (
-    <section className="SectionThree container">
+    <section className="section-three  container">
       <div id="about" className="wrapper mb-5">
         <div className="box-violet">
           <p className="section3-rotate alignment font-weight-bold d-block about">

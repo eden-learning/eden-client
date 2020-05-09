@@ -4,6 +4,13 @@
   font-family: Montserrat;
   color: #46237a;
 }
+.navbar-brand {
+  margin-right: 0;
+}
+.navbar-logo {
+  height: 30px;
+  width: 90px;
+}
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -13,7 +20,7 @@
   box-shadow: none;
 }
 @media (min-width: 768px) {
-  #logo-container {
+  .logo-container {
     overflow: hidden;
     max-width: 120px;
   }

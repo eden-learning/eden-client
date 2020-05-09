@@ -3,27 +3,39 @@
 }
 .hero-section-text {
   color: #46237a;
+  font-size: 1.25rem;
+  line-height: 1.375rem;
+  font-weight: bold;
 }
 .hero-section-title {
   color: #3ddc97;
+  font-size: 1.15rem;
+  line-height: 1.125rem;
+  font-weight: 500;
 }
-
 .form-control {
-  border-radius: 1rem;
-  border-color: #3ddc97;
+  border-radius: 0.625rem;
+  border: 1px solid #3ddc97;
 }
-
-.btn {
-  border-radius: 1rem;
+.form-container {
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+}
+.get-notified-btn {
+  border-radius: 0.625rem;
   background-color: #3ddc97;
+  width: 100%;
+  margin-bottom: 2.5rem;
 }
 
 .btn-secondary {
   border-color: #3ddc97;
   color: #ffffff;
 }
-
-@media (min-width: 768px) {
+.hero-img img {
+  width: inherit;
+}
+@media (min-width: 1234px) {
   .logo {
     display: block;
   }
