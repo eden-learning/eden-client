@@ -2,7 +2,7 @@ import React from 'react';
 import HeroSection from './HeroSection';
 import '../styles/App.css';
 
-function App() {
+function App() {  
   return (
     <div className="App">
       <HeroSection />

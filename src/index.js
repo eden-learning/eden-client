@@ -4,6 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+import * as firebase from 'firebase';
+
+let config = {};
+firebase.initializeApp(config);
+firebase.analytics();
 
 ReactDOM.render(
   <React.StrictMode>
