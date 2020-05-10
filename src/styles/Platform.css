@@ -1,14 +1,14 @@
-.section2-img-wrapper {
+.platform-img-wrapper {
   max-height: 586px;
   display: flex;
   justify-content: center;
 }
 
-.section2-img-wrapper img {
+.platform-img-wrapper img {
   max-width: 100%;
 }
 
-.section-2-text-block {
+.platform-text-block {
   color: #46237a;
   text-align: center;
 }

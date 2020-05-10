@@ -12,6 +12,7 @@
 .form-control {
   border-radius: 0.625rem;
   border: 1px solid #3ddc97;
+  font-size: 1.5rem;
 }
 .form-container {
   max-width: 50%;
@@ -27,6 +28,27 @@
 .btn-secondary {
   border-color: #3ddc97;
   color: #ffffff;
+}
+.btn {
+  background-color: #3ddc97;
+  color: #ffffff;
+  font-size: 1.5rem;
+  border-radius: 0.625rem;
+}
+.form-control:focus {
+  border-color: #249765;
+  box-shadow: 0 0 0 0.2rem #8cd6b6;
+}
+.btn-outline-secondary:focus {
+  box-shadow: 0 0 0 0.2rem #249765;
+}
+.btn-outline-secondary:hover {
+  background-color: #249765;
+  border-color: #249765;
+  color: #ffffff;
+}
+.btn-outline-secondary {
+  border-color: #3ddc97;
 }
 .hero-img img {
   width: inherit;
@@ -57,9 +79,9 @@
   }
 
   .input-group > .input-group-append > .btn {
-    border-top-left-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-    border-radius: 0.25rem;
+    border-top-left-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
+    border-radius: 0.625rem;
     width: 100%;
   }
 }

@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/SectionThree.css';
+import '../styles/About.css';
 
-function SectionThree() {
+function About() {
   return (
-    <section className="section-three  container">
+    <section className="about-section  container">
       <div className="row mb-1">
         <div className="col-2 col-md-1 box-violet">
           <h5 className="vertical-box-header about">ABOUT US</h5>
@@ -42,4 +42,4 @@ function SectionThree() {
   );
 }
 
-export default SectionThree;
+export default About;

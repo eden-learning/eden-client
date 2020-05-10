@@ -5,13 +5,13 @@ import iconVideo from '../assets/icon-video.svg';
 import iconJigsaw from '../assets/icon-jigsaw.svg';
 import iconJuicebox from '../assets/icon-juicebox.svg';
 import iconRibbon from '../assets/icon-ribbon.svg';
-import '../styles/SectionTwo.css';
+import '../styles/Platform.css';
 
-function SectionTwo() {
+function Platform() {
   return (
-    <section id="platform" className="SectionTwo container">
+    <section id="platform" className="container">
       <div className="text-center">
-        <h4 className="section-2-text-block py-4 my-1 my-sm-5">
+        <h4 className="platform-text-block py-4 my-1 my-sm-5">
           We&apos;re building a platform with the individual attention of a
           personal tutor and engagement of the most creative teacher.
         </h4>
@@ -45,7 +45,7 @@ function SectionTwo() {
             </div>
           </div>
         </div>
-        <div className="section2-img-wrapper align-self-center p-3 col-lg-6 order-lg-1">
+        <div className="platform-img-wrapper align-self-center p-3 col-lg-6 order-lg-1">
           <img
             src={studentImg}
             alt="student sitting at computer with hand raised"
@@ -53,7 +53,7 @@ function SectionTwo() {
         </div>
       </div>
       <div className="text-align-center">
-        <h4 className="section-2-text-block py-4 my-1 my-sm-4">
+        <h4 className="platform-text-block py-4 my-1 my-sm-4">
           Low-resource families are disproportionately affected by school
           closures and face unique challenges.
         </h4>
@@ -62,4 +62,4 @@ function SectionTwo() {
   );
 }
 
-export default SectionTwo;
+export default Platform;
