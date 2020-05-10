@@ -10,16 +10,18 @@ export default function EmailForm({ className }) {
         Learning tailored for your child&apos;s needs
       </h3>
       <h4 className="hero-section-title mb-4">Launching Summer 2020.</h4>
-      <div className="form-container">
+      <div className="input-group mb-3">
         <input
           type="text"
-          className="form-control mb-3"
+          className="form-control"
           placeholder="Enter Email"
           aria-label="Recipient's email"
         />
-        <button className="btn get-notified-btn btn-secondary" type="button">
-          Get Notified
-        </button>
+        <div className="input-group-append">
+          <button className="btn btn-outline-secondary" type="button">
+            Get Notified
+          </button>
+        </div>
       </div>
     </div>
   );

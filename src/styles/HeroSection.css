@@ -3,14 +3,10 @@
 }
 .hero-section-text {
   color: #46237a;
-  font-size: 1.25rem;
-  line-height: 1.375rem;
   font-weight: bold;
 }
 .hero-section-title {
   color: #3ddc97;
-  font-size: 1.15rem;
-  line-height: 1.125rem;
   font-weight: 500;
 }
 .form-control {
@@ -18,8 +14,8 @@
   border: 1px solid #3ddc97;
 }
 .form-container {
-  padding-right: 0.9375rem;
-  padding-left: 0.9375rem;
+  max-width: 50%;
+  align-items: center;
 }
 .get-notified-btn {
   border-radius: 0.625rem;
@@ -35,8 +31,35 @@
 .hero-img img {
   width: inherit;
 }
-@media (min-width: 1234px) {
+@media (min-width: 992px) {
   .logo {
     display: block;
+  }
+  .hero-section-text {
+    text-align: left;
+  }
+  .hero-section-title {
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .input-group-append,
+  .input-group-btn,
+  .input-group .form-control {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .input-group > .form-control:not(:last-child) {
+    border-top-right-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+  }
+
+  .input-group > .input-group-append > .btn {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border-radius: 0.25rem;
+    width: 100%;
   }
 }

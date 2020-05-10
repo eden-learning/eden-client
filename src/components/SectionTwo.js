@@ -11,10 +11,10 @@ function SectionTwo() {
   return (
     <section id="platform" className="SectionTwo container">
       <div className="text-center">
-        <p className="section-2-text-block py-5">
+        <h4 className="section-2-text-block py-4 my-1 my-sm-5">
           We&apos;re building a platform with the individual attention of a
           personal tutor and engagement of the most creative teacher.
-        </p>
+        </h4>
       </div>
       <div className="row no-gutters">
         <div className="col-lg-6 order-lg-2">
@@ -45,7 +45,7 @@ function SectionTwo() {
             </div>
           </div>
         </div>
-        <div className="section2-img-wrapper align-self-center p-0 col-lg-6 order-lg-1">
+        <div className="section2-img-wrapper align-self-center p-3 col-lg-6 order-lg-1">
           <img
             src={studentImg}
             alt="student sitting at computer with hand raised"
@@ -53,10 +53,10 @@ function SectionTwo() {
         </div>
       </div>
       <div className="text-align-center">
-        <p className="section-2-text-block col-sm col-lg-9">
+        <h4 className="section-2-text-block py-4 my-1 my-sm-4">
           Low-resource families are disproportionately affected by school
           closures and face unique challenges.
-        </p>
+        </h4>
       </div>
     </section>
   );

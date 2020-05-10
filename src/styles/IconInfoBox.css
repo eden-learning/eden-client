@@ -1,11 +1,18 @@
 .icon-info-box {
   background-color: #f6f6f6;
   border-radius: 17px;
-  min-height: 250px;
   color: rgba(90, 90, 90, 0.85);
-  max-width: 220px;
+  height: 90%;
+  width: 90%;
 }
 
 .icon {
   max-width: 65px;
+}
+
+@media (min-width: 576px) {
+  .section-2-text-block {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 }

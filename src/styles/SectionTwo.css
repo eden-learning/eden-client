@@ -1,7 +1,7 @@
 .section2-img-wrapper {
   max-height: 586px;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .section2-img-wrapper img {
@@ -9,7 +9,6 @@
 }
 
 .section-2-text-block {
-  line-height: 1.125rem;
   color: #46237a;
   text-align: center;
 }
