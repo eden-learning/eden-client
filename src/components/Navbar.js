@@ -1,12 +1,12 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import '../styles/Navbar.css';
-import logo from '../assets/eden-logo-2.svg';
+import logo from '../assets/eden-logo.svg';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
-      <a className="navbar-brand pt-4 pb-4 logo-container" href="#home">
+    <nav className="navbar navbar-expand-lg navbar-light justify-content-between">
+      <a className="navbar-brand py-4 pl-lg-5 logo-container" href="#home">
         <img className="navbar-logo" src={logo} alt="Eden Logo" />
       </a>
       <button
