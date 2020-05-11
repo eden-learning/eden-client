@@ -1,0 +1,14 @@
+.platform-img-wrapper {
+  max-height: 586px;
+  display: flex;
+  justify-content: center;
+}
+
+.platform-img-wrapper img {
+  max-width: 100%;
+}
+
+.platform-text-block {
+  color: #46237a;
+  text-align: center;
+}

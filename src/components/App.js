@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroSection from './HeroSection';
-import SectionTwo from './SectionTwo';
-import SectionThree from './SectionThree';
+import Platform from './Platform';
+import About from './About';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import '../styles/App.css';
@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <Navbar />
       <HeroSection />
-      <SectionTwo />
-      <SectionThree />
+      <Platform />
+      <About />
       <Footer />
     </div>
   );

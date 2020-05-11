@@ -7,28 +7,18 @@
   --fc-white: #ffffff;
 }
 
-.SectionThree {
+.about-section {
   color: var(--fc-white);
-}
-
-.wrapper {
-  display: grid;
-  grid-gap: 2.5rem;
-  grid-template-columns: 1fr 5fr 5fr;
-  color: #444;
 }
 
 .box {
+  margin: 20px;
   color: var(--fc-white);
   border-radius: 17px;
-  font-size: 1.5rem;
 }
 
-.section3-rotate {
+.vertical-box-header {
   transform: rotate(180deg);
-}
-
-.alignment {
   text-orientation: sideways;
   writing-mode: vertical-lr;
 }
@@ -65,9 +55,12 @@
   background-color: var(--box-bg-violet);
   border-radius: 17px;
   color: var(--fc-white);
-  font-size: 1.625rem;
   padding: 10px;
   white-space: nowrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .box p {
