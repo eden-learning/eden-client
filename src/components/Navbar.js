@@ -1,20 +1,16 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import '../styles/Navbar.css';
-import logo from '../assets/eden-logo-2.svg';
+import logo from '../assets/eden-logo.svg';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-md navbar-light">
-      <a
-        className="navbar_brand pt-4 pl-5 pb-4"
-        id="logo-container"
-        href="#home"
-      >
-        <img src={logo} alt="Eden Logo" />
+    <nav className="navbar navbar-expand-lg navbar-light justify-content-between">
+      <a className="navbar-brand py-4 pl-lg-5 logo-container" href="#home">
+        <img className="navbar-logo" src={logo} alt="Eden Logo" />
       </a>
       <button
-        className="navbar-toggler"
+        className="navbar-toggler order-first"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -22,11 +18,16 @@ function Navbar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon" />
+        <span className="navbar-toggler-icon " />
       </button>
+      <button
+        className="navbar-toggler"
+        type="button"
+        aria-label="for alignment only"
+      />
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto mr-5 pr-3">
-          <li className="nav-item active p-2">
+          <li className="nav-item p-2">
             <a className="nav-link " href="#platform">
               Our Platform
             </a>
