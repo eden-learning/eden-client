@@ -50,6 +50,7 @@
 .btn-outline-secondary {
   border-color: #3ddc97;
 }
+
 .hero-img img {
   width: inherit;
 }
@@ -73,6 +74,12 @@
   }
 }
 
+.input-group
+  > .input-group-append:last-child
+  > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
+}
 @media (max-width: 768px) {
   .input-group-append,
   .input-group-btn,
