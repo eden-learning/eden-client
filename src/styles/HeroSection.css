@@ -53,6 +53,14 @@
 .hero-img img {
   width: inherit;
 }
+
+.btn-secondary:hover {
+  background-color: #249765;
+}
+
+.modal-footer {
+  border-top: 0 none;
+}
 @media (min-width: 992px) {
   .logo {
     display: block;
