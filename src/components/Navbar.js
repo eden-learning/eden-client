@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import '../styles/Navbar.css';
+import $ from 'jquery';
 import logo from '../assets/eden-logo.svg';
 
 function Navbar() {
@@ -28,7 +29,7 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto mr-5 pr-3">
           <li className="nav-item p-2">
-            <a className="nav-link " href="#platform">
+            <a className="nav-link" href="#platform">
               Our Platform
             </a>
           </li>
@@ -47,5 +48,11 @@ function Navbar() {
     </nav>
   );
 }
+
+function collapseMobileNav() {
+  $('.navbar-collapse').collapse('hide');
+}
+
+document.addEventListener('click', collapseMobileNav);
 
 export default Navbar;
