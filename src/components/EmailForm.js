@@ -35,7 +35,7 @@ export default function EmailForm({ className }) {
             <div className="modal-dialog" role="document">
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">Thank You!</h5>
+                  <h5 className="modal-title ">Thank You!</h5>
                   <button
                     type="button"
                     className="close"
@@ -45,7 +45,7 @@ export default function EmailForm({ className }) {
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <div className="modal-body">
+                <div className="modal-body justify-content-left">
                   <p>You will be notified when the app is launched.</p>
                 </div>
                 <div className="modal-footer">
