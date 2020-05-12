@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import $ from 'jquery';
 import logo from '../assets/eden-logo.svg';
 
 export default function EmailForm({ className }) {
+  const [email, setEmail] = useState('');
+
   const handleShow = () => {
-    $('#myModal').modal('show');
+    $('#notification-dialogue').modal('show');
+  };
+
+  const handleChange = (e) => {
+    setEmail(e.target.value);
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Here, before setting the email state, post email to the API
+    setEmail('');
+    handleShow();
   };
 
   return (
@@ -15,23 +27,33 @@ export default function EmailForm({ className }) {
         Learning tailored for your child&apos;s needs
       </h3>
       <h4 className="hero-section-title mb-4">Launching Summer 2020.</h4>
-      <div className="input-group mb-3">
+      <form className="input-group mb-3" onSubmit={handleSubmit}>
         <input
-          type="text"
+          type="email"
           className="form-control"
           placeholder="Enter Email"
           aria-label="Recipient's email"
+          name="email"
+          id="email"
+          value={email}
+          onChange={handleChange}
+          required
         />
+        <div className="valid-feedback feedback-pos">Looks good!</div>
+        <div className="invalid-feedback feedback-pos">
+          Please input valid email ID
+        </div>
         <div className="input-group-append">
-          <button
-            className="btn btn-outline-secondary"
-            type="button"
-            onClick={handleShow}
-          >
+          <button className="btn btn-outline-secondary" type="submit">
             Get Notified
           </button>
 
-          <div className="modal" id="myModal" tabIndex="-1" role="dialog">
+          <div
+            className="modal"
+            id="notification-dialogue"
+            tabIndex="-1"
+            role="dialog"
+          >
             <div className="modal-dialog" role="document">
               <div className="modal-content">
                 <div className="modal-header">
@@ -61,7 +83,7 @@ export default function EmailForm({ className }) {
             </div>
           </div>
         </div>
-      </div>
+      </form>
     </div>
   );
 }
