@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import * as airtableSvc from '../services/airtableSvc';
 import $ from 'jquery';
 import logo from '../assets/eden-logo.svg';
 
@@ -16,6 +17,7 @@ export default function EmailForm({ className }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Here, before setting the email state, post email to the API
+    airtableSvc.writeEmailToDb(email);
     setEmail('');
     handleShow();
   };
