@@ -1,20 +1,32 @@
+import Airtable from 'airtable';
 import * as DbConst from '../helpers/dbHelper';
 
-let Airtable = require('airtable');
+// Add Airtable functions
+const airtableFns = {
+  writeEmailToDb(email) {
+    const base = new Airtable({ apiKey: DbConst.AIRTABLE_EMAIL.apiKey }).base(
+      DbConst.AIRTABLE_EMAIL.base
+    );
 
-export const writeEmailToDb =(email)=>{
-    var base = new Airtable({apiKey: DbConst.AIRTABLE_EMAIL.apiKey}).base(DbConst.AIRTABLE_EMAIL.base);
-    base(DbConst.AIRTABLE_EMAIL.table).create([
-    {
-        "fields": {
-        "Emails": String(email).trim()
-        }
-    }
-    ], function(err, records) {
+    base(DbConst.AIRTABLE_EMAIL.table).create(
+      [
+        {
+          fields: {
+            Emails: String(email).trim(),
+          },
+        },
+      ],
+      (err, records) => {
         if (err) {
-            return;
+          return;
         }
-        records.forEach(function (record) {
-        });
-    });
-}
+        records.forEach((record) => {});
+      }
+    );
+  },
+  callFns() {
+    airtableFns.writeEmailToDb();
+  },
+};
+
+export default airtableFns;
