@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import $ from 'jquery';
+import airtableFns from '../services/airtableSvc';
 import logo from '../assets/eden-logo.svg';
 
 export default function EmailForm({ className }) {
@@ -16,6 +17,7 @@ export default function EmailForm({ className }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Here, before setting the email state, post email to the API
+    airtableFns.writeEmailToDb(email);
     setEmail('');
     handleShow();
   };
