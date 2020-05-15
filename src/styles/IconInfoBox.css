@@ -10,6 +10,11 @@
   max-width: 65px;
 }
 
+.icon-text{
+  font-family: Nunito;
+  letter-spacing: 0.352941px;
+}
+
 @media (min-width: 576px) {
   .section-2-text-block {
     padding-left: 5rem;

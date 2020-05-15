@@ -1,3 +1,17 @@
+@font-face{
+  font-family: "Visby Round Cf";
+  src: url('../assets/Visby Round v1.7w/Webfont/VisbyRoundCF-Regular.eot');
+  src: url('../assets/Visby Round v1.7w/Webfont/VisbyRoundCF-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../assets/Visby Round v1.7w/Webfont/VisbyRoundCF-Regular.woff') format('woff'),
+    url('../assets/Visby Round v1.7w/Webfont/VisbyRoundCF-Regular.woff2') format('woff2'),
+    url('../assets/Visby Round v1.7w/OTF/VisbyRoundCF-Regular.otf') format('otf');
+}
+
+@font-face{
+  font-family: "Nunito";
+  src: url('../assets/Nunito/Nunito-Regular.ttf');
+}
+
 .row {
   margin-right: 0;
   margin-left: 0;

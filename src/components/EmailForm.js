@@ -32,7 +32,7 @@ export default function EmailForm({ className }) {
       <form className="input-group mb-3" onSubmit={handleSubmit}>
         <input
           type="email"
-          className="form-control"
+          className="form-control p-4"
           placeholder="Enter Email"
           aria-label="Recipient's email"
           name="email"
@@ -46,7 +46,7 @@ export default function EmailForm({ className }) {
           Please input valid email ID
         </div>
         <div className="input-group-append">
-          <button className="btn btn-outline-secondary" type="submit">
+          <button className="btn btn-outline-secondary btn" type="submit">
             Get Notified
           </button>
 
