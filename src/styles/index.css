@@ -1,3 +1,14 @@
+@font-face{
+  font-family: "Visby Round Cf";
+  src: url('../assets/Visby Round v1.7w/Webfont/VisbyRoundCF-Regular.eot');
+  src: url('../assets/Visby Round v1.7w/Webfont/VisbyRoundCF-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../assets/Visby Round v1.7w/Webfont/VisbyRoundCF-Regular.woff') format('woff'),
+    url('../assets/Visby Round v1.7w/Webfont/VisbyRoundCF-Regular.woff2') format('woff2'),
+    url('../assets/Visby Round v1.7w/OTF/VisbyRoundCF-Regular.otf') format('otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
