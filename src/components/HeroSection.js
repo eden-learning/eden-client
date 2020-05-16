@@ -9,7 +9,7 @@ export default function HeroSection() {
       <div className="mb-auto" />
       <div className="row ">
         <div className="hero-img col-lg-6 order-lg-2 mx-auto">
-          <img src={hero} alt="eden logo" />
+          <img src={hero} alt="" />
         </div>
         <EmailForm className="col-lg-6 order-lg-1 mx-auto" />
       </div>
