@@ -9,6 +9,9 @@
 }
 
 .platform-text-block {
+  font-family: Visby Round CF;
   color: #46237a;
   text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.784314px;
 }

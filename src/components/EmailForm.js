@@ -32,7 +32,7 @@ export default function EmailForm({ className }) {
       <form className="input-group mb-3" onSubmit={handleSubmit}>
         <input
           type="email"
-          className="form-control"
+          className="form-control p-4"
           placeholder="Enter Email"
           aria-label="Recipient's email"
           name="email"

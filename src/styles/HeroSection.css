@@ -2,12 +2,19 @@
   display: none;
 }
 .hero-section-text {
-  color: #46237a;
+  font-family: Visby Round Cf;
   font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.882353px;
+  color: #46237a;
 }
 .hero-section-title {
-  color: #3ddc97;
+  color: #3DDC97;
   font-weight: 500;
+  font-family: Visby Round CF;
+  font-size: 42px;
+  line-height: 50px;
 }
 .form-control {
   border-radius: 0.625rem;
@@ -39,9 +46,20 @@
   font-size: 1.5rem;
   border-radius: 0.625rem;
 }
+.form-control{
+  font-family: Visby Round CF;
+  font-size: 20px;
+  line-height: 30px;
+}
 .form-control:focus {
   border-color: #249765;
   box-shadow: 0 0 0 0.2rem #8cd6b6;
+}
+.btn{
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
 }
 .btn-outline-secondary:focus {
   box-shadow: 0 0 0 0.2rem #249765;

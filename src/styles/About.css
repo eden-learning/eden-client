@@ -15,6 +15,9 @@
   margin: 20px;
   color: var(--fc-white);
   border-radius: 17px;
+  font-family: Nunito;
+  font-size:20px;
+  line-height: 33px;
 }
 
 .vertical-box-header {
@@ -61,6 +64,9 @@
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  font-family: Visby Round CF;
+  font-size: 26px;
+  letter-spacing: 0.5096px;
 }
 
 .box p {
