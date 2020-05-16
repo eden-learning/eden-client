@@ -46,7 +46,7 @@ export default function EmailForm({ className }) {
           Please input valid email ID
         </div>
         <div className="input-group-append">
-          <button className="btn btn-outline-secondary btn" type="submit">
+          <button className="btn btn-outline-secondary" type="submit">
             Get Notified
           </button>
 
