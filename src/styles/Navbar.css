@@ -23,8 +23,4 @@
   .navbar-logo {
     width: 200px;
   }
-  .logo-container {
-    overflow: hidden;
-    max-width: 120px;
-  }
 }

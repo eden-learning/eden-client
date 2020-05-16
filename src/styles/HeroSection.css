@@ -9,11 +9,15 @@
   letter-spacing: 0.882353px;
   color: #46237a;
 }
+
+.hero-section-text-top {
+  padding-top: 52px;
+}
 .hero-section-title {
   color: #3DDC97;
   font-weight: 500;
   font-family: Visby Round CF;
-  font-size: 42px;
+  font-size: 30px;
   line-height: 50px;
 }
 .form-control {
