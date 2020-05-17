@@ -106,7 +106,7 @@
   border-radius: 0.625rem;
   position: relative;
   z-index: 2;
-  right: 80px;
+  right: 5px;
   }
 @media (max-width: 768px) {
   .input-group-append,
