@@ -34,13 +34,13 @@ function Navbar() {
             </a>
           </li>
           <li className="nav-item p-2">
-            <a className="nav-link" href="#help">
-              How to help
+            <a className="nav-link" href="#about">
+              About Us
             </a>
           </li>
           <li className="nav-item p-2">
-            <a className="nav-link" href="#about">
-              About Us
+            <a className="nav-link" href="#help">
+              How to help
             </a>
           </li>
         </ul>
