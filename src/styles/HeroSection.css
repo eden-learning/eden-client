@@ -14,7 +14,7 @@
   padding-top: 52px;
 }
 .hero-section-title {
-  color: #3DDC97;
+  color: #3ddc97;
   font-weight: 500;
   font-family: Visby Round CF;
   font-size: 30px;
@@ -50,7 +50,7 @@
   font-size: 1.5rem;
   border-radius: 0.625rem;
 }
-.form-control{
+.form-control {
   font-family: Visby Round CF;
   font-size: 20px;
   line-height: 30px;
@@ -59,7 +59,7 @@
   border-color: #249765;
   box-shadow: 0 0 0 0.2rem #8cd6b6;
 }
-.btn{
+.btn {
   font-family: Montserrat;
   font-size: 18px;
   line-height: 27px;
@@ -88,6 +88,12 @@
 .modal-footer {
   border-top: 0 none;
 }
+
+.input-group
+  > .input-group-append:last-child
+  > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0.625rem;
+}
 @media (min-width: 992px) {
   .logo {
     display: block;
@@ -99,15 +105,14 @@
     text-align: left;
   }
 }
-
+@media (min-width: 769px) {
+}
 .input-group
   > .input-group-append:last-child
   > .btn:not(:last-child):not(.dropdown-toggle) {
-  border-radius: 0.625rem;
-  position: relative;
-  z-index: 2;
   right: 5px;
-  }
+}
+
 @media (max-width: 768px) {
   .input-group-append,
   .input-group-btn,
@@ -122,9 +127,8 @@
   }
 
   .input-group > .input-group-append > .btn {
-    border-top-left-radius: 0.625rem;
-    border-bottom-left-radius: 0.625rem;
     border-radius: 0.625rem;
+    left: 5px;
     width: 100%;
   }
 }
