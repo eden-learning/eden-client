@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import $ from 'jquery';
-import airtableFns from '../services/airtableSvc';
+import airtableFns from '../services/airtable';
 
 export default function EmailForm({ className }) {
   const [email, setEmail] = useState('');

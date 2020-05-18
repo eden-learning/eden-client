@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/IconInfoBox.css';
 
-function IconInfoBox(props) {
+export default function IconInfoBox(props) {
   const { icon, text } = props;
   return (
     <div className="icon-info-box p-3 m-3">
@@ -16,5 +16,3 @@ IconInfoBox.propTypes = {
   text: PropTypes.string.isRequired,
   icon: PropTypes.string.isRequired,
 };
-
-export default IconInfoBox;
