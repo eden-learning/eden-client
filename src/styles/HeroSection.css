@@ -128,7 +128,7 @@
 
   .input-group > .input-group-append > .btn {
     border-radius: 0.625rem;
-    left: 5px;
+    margin-left: 10px;
     width: 100%;
   }
 }
