@@ -22,6 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject",
+    "lintfix": "eslint ./src --fix",
     "deploy-test": "npm run build && firebase deploy --only hosting:eden-test",
     "deploy-prod": "npm run build && firebase deploy --only hosting:eden-5d453"
   },
@@ -41,6 +42,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.11.0",
