@@ -107,6 +107,7 @@
   .input-group
     > .input-group-append:last-child
     > .btn:not(:last-child):not(.dropdown-toggle) {
+    border-radius: 0.625rem;
     right: 5px;
   }
 }
