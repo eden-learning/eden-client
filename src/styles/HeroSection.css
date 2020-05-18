@@ -104,6 +104,11 @@
   .hero-section-title {
     text-align: left;
   }
+  .input-group
+    > .input-group-append:last-child
+    > .btn:not(:last-child):not(.dropdown-toggle) {
+    right: 5px;
+  }
 }
 @media (min-width: 769px) {
   .input-group
