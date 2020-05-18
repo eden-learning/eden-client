@@ -6,7 +6,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import '../styles/App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Navbar />
@@ -17,5 +17,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

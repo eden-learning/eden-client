@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/About.css';
 
-function About() {
+export default function About() {
   return (
     <section className="about-section  container">
       <div className="row mb-1">
@@ -41,5 +41,3 @@ function About() {
     </section>
   );
 }
-
-export default About;

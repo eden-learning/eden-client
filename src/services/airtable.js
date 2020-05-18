@@ -20,7 +20,7 @@ const airtableFns = {
         if (err) {
           return;
         }
-        records.forEach((record) => {});
+        records.forEach(() => {});
       }
     );
   },

@@ -7,7 +7,7 @@ import iconJuicebox from '../assets/icon-juicebox.svg';
 import iconRibbon from '../assets/icon-ribbon.svg';
 import '../styles/Platform.css';
 
-function Platform() {
+export default function Platform() {
   return (
     <section id="platform" className="container">
       <div className="text-center">
@@ -61,5 +61,3 @@ function Platform() {
     </section>
   );
 }
-
-export default Platform;
