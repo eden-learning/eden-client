@@ -106,11 +106,11 @@
   }
 }
 @media (min-width: 769px) {
-}
-.input-group
-  > .input-group-append:last-child
-  > .btn:not(:last-child):not(.dropdown-toggle) {
-  right: 5px;
+  .input-group
+    > .input-group-append:last-child
+    > .btn:not(:last-child):not(.dropdown-toggle) {
+    right: 5px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -128,7 +128,6 @@
 
   .input-group > .input-group-append > .btn {
     border-radius: 0.625rem;
-    margin-left: 10px;
     width: 100%;
   }
 }
