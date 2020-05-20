@@ -44,16 +44,32 @@ export default function Footer() {
           </div>
 
           <div className="col-lg-6 text-center">
-            <a href="#twitter">
+            <a
+              href="https://twitter.com/PlaywithEden"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <i className="fa fa-twitter rounded-circle fa-2x bg-white m-4 p-3" />
             </a>
-            <a href="#facebook">
+            <a
+              href="https://m.facebook.com/PlayWithEden/?modal=admin_todo_tour"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <i className="fa fa-facebook-square rounded-circle fa-2x bg-white m-4 p-3" />
             </a>
-            <a href="#instagram">
+            <a
+              href="https://www.instagram.com/invites/contact/?i=1q6wz6xs4q4dc&utm_content=g2oxjvo"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <i className="fa fa-instagram rounded-circle fa-2x bg-white m-4 p-3" />
             </a>
-            <a href="#linkedin">
+            <a
+              href="https://www.linkedin.com/company/projecteden/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <i className="fa fa-linkedin rounded-circle fa-2x bg-white m-4 p-3" />
             </a>
           </div>
