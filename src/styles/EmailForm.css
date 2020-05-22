@@ -1,0 +1,29 @@
+.emailform-notification-title{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #46237a;
+}
+
+.emailform-notification-body{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    color: #46237a;
+}
+
+
+
+.emailform-notification-content{    
+    border-radius: 20px !important;
+    padding: 25px !important;
+}
+
+.emailform-notification-close-button{
+    padding: 0 !important;
+    font-size: 25px !important;
+}

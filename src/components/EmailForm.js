@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import '../styles/EmailForm.css';
 import $ from 'jquery';
 import airtableFns from '../services/airtable';
 
@@ -56,20 +57,20 @@ export default function EmailForm({ className }) {
             role="dialog"
           >
             <div className="modal-dialog" role="document">
-              <div className="modal-content">
+              <div className="modal-content emailform-notification-content">
                 <div className="modal-header">
-                  <h5 className="modal-title ">Thank You!</h5>
+                  <h5 className="modal-title justify-content-center emailform-notification-title">Thank you for your interest in Eden!</h5>
                   <button
                     type="button"
-                    className="close"
+                    className="close emailform-notification-close-button"
                     data-dismiss="modal"
                     aria-label="Close"
                   >
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <div className="modal-body justify-content-left">
-                  <p>You will be notified when the app is launched.</p>
+                <div className="modal-body emailform-notification-body">
+                  <p>We're excited to have you on board and we'll keep you updated via the email you provided.</p>
                 </div>
                 <div className="modal-footer">
                   <button
