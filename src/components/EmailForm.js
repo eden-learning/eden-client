@@ -63,7 +63,7 @@ export default function EmailForm({ className }) {
                   <h5 className="modal-title justify-content-center emailform-notification-title">Thank you for your interest in Eden!</h5>
                   <button
                     type="button"
-                    className="close emailform-notification-close-button"
+                    className="emailform-notification-close-button"
                     data-dismiss="modal"
                     aria-label="Close"
                   >
