@@ -12,7 +12,7 @@ export default function Footer() {
                 className="text-white"
                 href="mailto:learnwitheden@gmail.com"
                 rel="noopener noreferrer"
-                target="blank"
+                target="_blank"
               >
                 Contact Us: learnwitheden@gmail.com
               </a>
@@ -41,7 +41,7 @@ export default function Footer() {
             <i className="fa fa-facebook-square rounded-circle fa-2x bg-white m-4 p-3" />
           </a>
           <a
-            href="https://www.instagram.com/invites/contact/?i=1q6wz6xs4q4dc&utm_content=g2oxjvo"
+            href="https://www.instagram.com/playwitheden/"
             rel="noopener noreferrer"
             target="_blank"
           >
