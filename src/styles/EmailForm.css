@@ -9,6 +9,7 @@
     font-size: 35px;
     line-height: 40px;
     color: #46237a;
+    width: 100%;
 }
 
 .emailform-notification-body{
@@ -31,8 +32,14 @@
 }
 
 .emailform-notification-close-button{
-    border: 1px solid #979797;
-    background: none;
-    margin-top: -1rem;
-    margin-right: -1rem;
+    margin-top: -1rem !important;
+    margin-right: -1rem !important;
+    padding: 0 !important;
+}
+
+@media (min-width: 992px) {
+    .emailform-notification-dialog{
+        max-width: 874px;
+        height: 548px;
+    }
 }
