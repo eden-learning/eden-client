@@ -2,7 +2,6 @@
 import React from 'react';
 import '../styles/Navbar.css';
 import $ from 'jquery';
-import logo from '../assets/eden-logo.svg';
 
 export default class Navbar extends React.Component {
   componentDidMount() {
@@ -20,9 +19,6 @@ export default class Navbar extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light justify-content-between">
-        <a className="navbar-brand py-4 pl-lg-5 logo-container" href="#home">
-          <img className="navbar-logo" src={logo} alt="Eden Logo" />
-        </a>
         <button
           className="navbar-toggler order-first"
           type="button"
@@ -41,15 +37,6 @@ export default class Navbar extends React.Component {
         />
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto mr-5 pr-3">
-            <li className="nav-item p-2">
-              <a
-                className="nav-link"
-                href="#platform"
-                onClick={this.collapseMobileNav}
-              >
-                Our Platform
-              </a>
-            </li>
             <li className="nav-item p-2">
               <a
                 className="nav-link"
