@@ -23,8 +23,10 @@
     "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject",
     "lintfix": "eslint ./src --fix",
-    "deploy-test": "npm run build && firebase deploy --only hosting:eden-test",
-    "deploy-prod": "npm run build && firebase deploy --only hosting:eden-5d453"
+    "build-test": "PUBLIC_URL=https://eden-test.firebaseapp.com/ npm run build",
+    "build-prod": "PUBLIC_URL=https://eden-5d453.firebaseapp.com/  npm run build",
+    "deploy-test": "npm run build-test && firebase deploy --only hosting:eden-test",
+    "deploy-prod": "npm run build-prod && firebase deploy --only hosting:eden-5d453"
   },
   "eslintConfig": {
     "extends": "react-app"
