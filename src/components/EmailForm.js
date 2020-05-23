@@ -23,10 +23,11 @@ export default function EmailForm({ className }) {
 
   return (
     <div className={className}>
-      <h3 className="hero-section-text hero-section-text-top mt-5">
+      <h3 className="hero-section-text hero-section-text-top mb-5 mt-5">
         Create amazing projects
+        <br />
+        for learners of all ages.
       </h3>
-      <h3 className="hero-section-text mb-5">for learners of all ages.</h3>
       <h4 className="hero-section-title">Launching Fall 2020.</h4>
       <form className="input-group mb-3" onSubmit={handleSubmit}>
         <input
