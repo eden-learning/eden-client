@@ -10,8 +10,8 @@ export default function About() {
         </div>
         <div id="about" className="col-10 col-md-11 row">
           <div className="col-lg box box-red ">
-            We are a brilliant team of volunteers from all over the world in
-            various careers with one vision in mind.
+            We are a brilliant team from all over the world with one vision in
+            mind.
           </div>
           <div className="col-lg box box-yellow">
             We are passionate creators, problem solvers, parents, teachers and
@@ -25,16 +25,12 @@ export default function About() {
         </div>
         <div id="help" className="col-10 col-md-11 row">
           <div className="box box-blue col-lg">
-            <p>
-              We’re looking for lead development of platform across mobile and
-              web, frontend and backend engineers.
-            </p>
+            <p>College Admissions Officer</p>
+            <p>Sign up to see student portfolios of your future admits.</p>
           </div>
           <div className="box box-green col-lg">
-            <p>
-              We need more teachers, educators, ESL teachers and social workers
-              in schools.
-            </p>
+            <p>Teachers & parents</p>
+            <p>Sign up for beta testing.</p>
           </div>
         </div>
       </div>
