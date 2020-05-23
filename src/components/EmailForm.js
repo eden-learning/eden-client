@@ -59,7 +59,7 @@ export default function EmailForm({ className }) {
           >
             <div className="modal-dialog" role="document">
               <div className="modal-content emailform-notification-content">
-                <div className="modal-header emailform-notification-title">
+                <div className="modal-header emailform-notification-header">
                   <h5 className="modal-title justify-content-center emailform-notification-title">Thank you for your interest in Eden!</h5>
                   <button
                     type="button"
