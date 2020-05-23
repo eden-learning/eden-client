@@ -12,8 +12,9 @@ export default function Platform() {
     <section id="platform" className="container">
       <div className="text-center">
         <h4 className="platform-text-block py-4 my-1 my-sm-5">
-          We&apos;re building a platform with the individual attention of a
-          personal tutor and engagement of the most creative teacher.
+          Imagine a future with no standardized tests. A future where you are
+          evaluated on the quality of your portfolio. We are building that
+          future today.
         </h4>
       </div>
       <div className="row no-gutters">
@@ -22,25 +23,29 @@ export default function Platform() {
             <div className="col-sm-6">
               <IconInfoBox
                 icon={iconVideo}
-                text="By curating free resources, we are low-cost and accessible for all."
+                title="Educators"
+                text="Design a project and invite your students"
               />
             </div>
             <div className="col-sm-6">
               <IconInfoBox
                 icon={iconJigsaw}
-                text="We are adaptive to growing needs and different learning styles."
+                title="Educators"
+                text="Customize an existing project to your needs"
               />
             </div>
             <div className="col-sm-6">
               <IconInfoBox
                 icon={iconJuicebox}
-                text="We aim to provide engaging content to make at-home learning fun."
+                title="Students"
+                text="Grow your portfolio of projects"
               />
             </div>
             <div className="col-sm-6">
               <IconInfoBox
                 icon={iconRibbon}
-                text="We work closely with social workers and ESL teachers to address unique challenges."
+                title="Students"
+                text="Create projects and work with friends"
               />
             </div>
           </div>
@@ -51,12 +56,6 @@ export default function Platform() {
             alt="student sitting at computer with hand raised"
           />
         </div>
-      </div>
-      <div className="text-align-center">
-        <h4 className="platform-text-block py-4 my-1 my-sm-4">
-          Low-resource families are disproportionately affected by school
-          closures and face unique challenges.
-        </h4>
       </div>
     </section>
   );
