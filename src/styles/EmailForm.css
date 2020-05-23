@@ -1,4 +1,8 @@
 .emailform-notification-title{
+    border-bottom: 0px;
+}
+
+.emailform-notification-title{
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
@@ -16,10 +20,13 @@
     color: #46237a;
 }
 
-
+.emailform-notification-image{    
+    max-width: 147px !important;
+    max-height: 147px !important;
+}
 
 .emailform-notification-content{    
-    border-radius: 20px !important;
+    border-radius: 48px !important;
     padding: 25px !important;
 }
 
