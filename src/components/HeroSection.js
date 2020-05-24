@@ -5,7 +5,7 @@ import EmailForm from './EmailForm';
 
 export default function HeroSection() {
   return (
-    <section className="container text-center">
+    <section className="container">
       <div className="mb-auto" />
       <div className="row ">
         <div className="hero-img col-lg-6 order-lg-2 mx-auto">

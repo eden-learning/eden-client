@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import $ from 'jquery';
 import iconEmail from '../assets/icon-email.svg';
 import '../styles/EmailForm.css';
-import $ from 'jquery';
 import airtableFns from '../services/airtable';
 
 export default function EmailForm({ className }) {
@@ -25,12 +25,12 @@ export default function EmailForm({ className }) {
 
   return (
     <div className={className}>
-      <h3 className="hero-section-text hero-section-text-top mb-5 mt-5">
+      <h3 className="header-text header-text-top mb-5 mt-5">
         Create amazing projects
         <br />
         for learners of all ages.
       </h3>
-      <h4 className="hero-section-title">Launching Fall 2020.</h4>
+      <h4 className="header-title">Launching Fall 2020.</h4>
       <form className="input-group mb-3" onSubmit={handleSubmit}>
         <input
           type="email"
@@ -58,10 +58,15 @@ export default function EmailForm({ className }) {
             tabIndex="-1"
             role="dialog"
           >
-            <div className="modal-dialog emailform-notification-dialog" role="document">
+            <div
+              className="modal-dialog emailform-notification-dialog"
+              role="document"
+            >
               <div className="modal-content emailform-notification-content">
                 <div className="modal-header emailform-notification-header">
-                  <h5 className="modal-title justify-content-center emailform-notification-title">Thank you for your interest in Eden!</h5>
+                  <h5 className="modal-title justify-content-center emailform-notification-title">
+                    Thank you for your interest in Eden!
+                  </h5>
                   <button
                     type="button"
                     className="close emailform-notification-close-button"
@@ -72,7 +77,10 @@ export default function EmailForm({ className }) {
                   </button>
                 </div>
                 <div className="modal-body emailform-notification-body">
-                  <p>We're excited to have you on board and we'll keep you updated via the email you provided.</p>
+                  <p>
+                    We&apos;re excited to have you on board and we&apos;ll keep
+                    you updated via the email you provided.
+                  </p>
                   <div className="platform-img-wrapper justify-content-center">
                     <img
                       src={iconEmail}
