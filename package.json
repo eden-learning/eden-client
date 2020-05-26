@@ -21,6 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --passWithNoTests",
+    "lint": "npx eslint ./src",
     "eject": "react-scripts eject",
     "lintfix": "eslint ./src --fix",
     "build-test": "PUBLIC_URL=https://eden-test.firebaseapp.com/ npm run build",
