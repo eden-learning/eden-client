@@ -1,45 +1,173 @@
-.emailform-notification-header{
-    border-bottom: 0px;
+.header-text {
+  font-family: Visby Round Cf;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.882353px;
+  color: #46237a;
 }
 
-.emailform-notification-title{
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 40px;
-    color: #46237a;
-    width: 100%;
+.header-text-top {
+  padding-top: 52px;
+}
+.header-title {
+  color: #3ddc97;
+  font-weight: 500;
+  font-family: Visby Round CF;
+  font-size: 30px;
+  line-height: 50px;
 }
 
-.emailform-notification-body{
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 34px;
-    color: #46237a;
+.emailform-notification-header {
+  border-bottom: 0px;
 }
 
-.emailform-notification-image{    
-    max-width: 147px !important;
-    max-height: 147px !important;
+.emailform-notification-title {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 40px;
+  color: #46237a;
+  width: 100%;
 }
 
-.emailform-notification-content{    
-    border-radius: 48px !important;
-    padding: 25px !important;
+.emailform-notification-body {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 34px;
+  color: #46237a;
 }
 
-.emailform-notification-close-button{
-    margin-top: -1rem !important;
-    margin-right: -1rem !important;
-    padding: 0 !important;
+.emailform-notification-image {
+  max-width: 147px !important;
+  max-height: 147px !important;
+}
+
+.emailform-notification-content {
+  border-radius: 48px !important;
+  padding: 25px !important;
+}
+
+.emailform-notification-close-button {
+  margin-top: -1rem !important;
+  margin-right: -1rem !important;
+  padding: 0 !important;
+}
+
+.form-control {
+  border-radius: 0.625rem;
+  border: 1px solid #3ddc97;
+  font-size: 1.5rem;
+}
+.modal-body p {
+  display: flex;
+  justify-content: left;
+}
+.form-container {
+  max-width: 50%;
+  align-items: center;
+}
+.get-notified-btn {
+  border-radius: 0.625rem;
+  background-color: #3ddc97;
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.btn-secondary {
+  border-color: #3ddc97;
+  color: #ffffff;
+}
+.btn {
+  background-color: #3ddc97;
+  color: #ffffff;
+  font-size: 1.5rem;
+  border-radius: 0.625rem;
+}
+.form-control {
+  font-family: Visby Round CF;
+  font-size: 20px;
+  line-height: 30px;
+}
+.form-control:focus {
+  border-color: #249765;
+  box-shadow: 0 0 0 0.2rem #8cd6b6;
+}
+.btn {
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
+.btn-outline-secondary:focus {
+  box-shadow: 0 0 0 0.2rem #249765;
+}
+.btn-outline-secondary:hover {
+  background-color: #249765;
+  border-color: #249765;
+  color: #ffffff;
+}
+.btn-outline-secondary {
+  border-color: #3ddc97;
+}
+.btn-secondary:hover {
+  background-color: #249765;
+}
+
+.modal-footer {
+  border-top: 0 none;
+}
+
+.input-group
+  > .input-group-append:last-child
+  > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0.625rem;
 }
 
 @media (min-width: 992px) {
-    .emailform-notification-dialog{
-        max-width: 874px;
-        height: 548px;
-    }
+  .hero-section-text {
+    text-align: left;
+  }
+  .hero-section-title {
+    text-align: left;
+  }
+  .input-group
+    > .input-group-append:last-child
+    > .btn:not(:last-child):not(.dropdown-toggle) {
+    border-radius: 0.625rem;
+    right: 5px;
+  }
+  .emailform-notification-dialog {
+    max-width: 874px;
+    height: 548px;
+  }
+}
+@media (min-width: 769px) {
+  .input-group
+    > .input-group-append:last-child
+    > .btn:not(:last-child):not(.dropdown-toggle) {
+    right: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .input-group-append,
+  .input-group-btn,
+  .input-group .form-control {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .input-group > .form-control:not(:last-child) {
+    border-top-right-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+  }
+
+  .input-group > .input-group-append > .btn {
+    border-radius: 0.625rem;
+    width: 100%;
+  }
 }
