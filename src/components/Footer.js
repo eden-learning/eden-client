@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Footer.css';
 
 export default function Footer() {
@@ -18,9 +19,9 @@ export default function Footer() {
               </a>
             </li>
             <li className="p-2">
-              <a className="text-white" href="#footer2">
+              <Link className="text-white" to="/privacy-policy">
                 Terms & Privacy
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
