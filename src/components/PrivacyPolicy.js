@@ -28,7 +28,6 @@ function PrivacyPolicy() {
         Please read on to learn more about how we collect and use your
         information; if you have any questions or concerns regarding our privacy
         practices, please send us a detailed message to
-{' '}
         <a href="mailto:learnwitheden@gmail.com"> learnwitheden@gmail.com.</a>
       </p>
       <p>This Privacy Policy contains the following sections:</p>
@@ -113,7 +112,6 @@ function PrivacyPolicy() {
         delete that information as quickly as possible. If you believe that a
         child may have provided us personal information in violation of this
         paragraph, please contact us at
-{' '}
         <a href="mailto:learnwitheden@gmail.com"> learnwitheden@gmail.com.</a>
       </p>
       <p>
@@ -163,9 +161,7 @@ function PrivacyPolicy() {
         the referral process, we may obtain that information from that other
         Eden user. Individuals who want Eden to delete their information can
         contact Eden at
-{' '}
         <a href="mailto:learnwitheden@gmail.com"> learnwitheden@gmail.com </a>
-{' '}
         to request that we remove your information from our database.With your
         permission and consent, Eden may access the contact list available on
         your mobile device or in your email accounts to allow you to connect to
@@ -269,7 +265,6 @@ function PrivacyPolicy() {
         receive emails from Eden, please click the unsubscribe link that is
         included in the footer of our emails, update your email preferences, or
         contact us at
-{' '}
         <a href="mailto:learnwitheden@gmail.com"> learnwitheden@gmail.com</a>
         .Please note that if you do not want to receive legal notices from us
         via email, such as this Privacy Policy, those legal notices will still
@@ -509,9 +504,8 @@ function PrivacyPolicy() {
       </h2>
       <p>
         This section outlines the choices you have regarding your information
-        and Children’s Personal Information. 
-{' '}
-<br />
+        and Children’s Personal Information
+        <br />
         You can always opt not to disclose information, even though it may be
         needed to take advantage of certain of our features; you can do so via
         your User Profile page or your Account Settings page. You are able to
@@ -567,16 +561,14 @@ function PrivacyPolicy() {
         regarding your child be updated or deleted, or if you’d like to refuse
         further contact of your child (or, if you are a teacher, a child that is
         in your class) by the Services, please contact us at
-{' '}
-        <a href="mailto:learnwitheden@gmail.com"> learnwitheden@gmail.com </a>
-.
-        A minor student’s participation in our Services, and the ability of a
+        <a href="mailto:learnwitheden@gmail.com"> learnwitheden@gmail.com.</a>
+        Minor student’s participation in our Services, and the ability of a
         minor student to access the Services, will not be conditioned on that
         student providing more Children’s Personal Information than is
         reasonably necessary for that participation or access. We will respond
         to a request made pursuant to this section within thirty days of our
         receipt of such request.
-</p>
+      </p>
       <h4>Retention.</h4>
       <p>
         We will retain your Personal Information or Children’s Personal
@@ -601,7 +593,8 @@ function PrivacyPolicy() {
         Categories of personal information we collect, use and disclose.
         Throughout this Policy, we discuss in detail the specific pieces of
         information we collect from and about users and discuss how we use and
-        share such information. <br />
+        share such information.
+        <br />
         The following are the “categories” of personal information under the
         CCPA that we collect and that we may, as discussed throughout this
         Policy, use and disclose for our business purposes.

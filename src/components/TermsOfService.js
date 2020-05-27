@@ -32,7 +32,7 @@ function TermsOfService() {
           app available via the Android Marketplace, and the Eden iPhone and
           iPad apps available at the Apple App Store). If you have any
           questions, comments, or concerns regarding these Terms or the
-          Services, please contact us at{' '}
+          Services, please contact us at
           <a href="mailto:learnwitheden@gmail.com"> learnwitheden@gmail.com.</a>
         </p>
         <p className="mx-3">
@@ -174,7 +174,7 @@ function TermsOfService() {
             Also, your use of the Services is subject to our Acceptable Use
             Policy, which outlines what you can and can’t do with and on the
             Services.
-          </strong>{' '}
+          </strong>
           Read the Acceptable Use Policy carefully, and please be a good digital
           citizen at all times – we are all in this together! For more on
           digital citizenship, please click here. A violation of the Acceptable
@@ -479,7 +479,6 @@ function TermsOfService() {
           communicate with you in a manner that meets your expectations. That
           said, if you have any issues with a Publisher please let us know by
           contacting us at
-{' '}
           <a href="mailto:learnwitheden@gmail.com"> learnwitheden@gmail.com </a>
           , or by submitting a review of the Publisher or the Third-Party
           Content on its listing page.
@@ -614,10 +613,8 @@ function TermsOfService() {
         </p>
         <p className="mx-3">
           If you have deleted your account by mistake, contact us immediately at
-{' '}
-          <a href="mailto:learnwitheden@gmail.com"> learnwitheden@gmail.com</a>
-{' '}
-          – we will try to help, but unfortunately, we can’t promise that we can
+          <a href="mailto:learnwitheden@gmail.com"> learnwitheden@gmail.com </a>
+          we will try to help, but unfortunately, we can’t promise that we can
           recover or restore anything.
         </p>
         <p className="mx-3">
