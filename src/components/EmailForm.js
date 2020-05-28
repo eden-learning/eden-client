@@ -4,6 +4,7 @@ import $ from 'jquery';
 import iconEmail from '../assets/icon-email.svg';
 import '../styles/EmailForm.css';
 import airtableFns from '../services/airtable';
+import logo from '../assets/eden-logo.svg';
 
 export default function EmailForm({ className }) {
   const [email, setEmail] = useState('');
@@ -25,7 +26,8 @@ export default function EmailForm({ className }) {
 
   return (
     <div className={className}>
-      <h3 className="header-text header-text-top mb-5 mt-5">
+      <img className="logo mt-4" src={logo} alt="eden logo" />
+      <h3 className="header-text header-text-top mb-5">
         Create amazing projects
         <br />
         for learners of all ages.
