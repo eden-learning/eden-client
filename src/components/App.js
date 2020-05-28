@@ -5,7 +5,8 @@ import Platform from './Platform';
 import About from './About';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import TermsPrivacy from './TermsPrivacy';
+import PrivacyPolicy from './PrivacyPolicy';
+import TermsOfService from './TermsOfService';
 import '../styles/App.css';
 
 export default function App() {
@@ -24,7 +25,8 @@ export default function App() {
         )}
         exact
       />
-      <Route path="/privacy-policy" component={TermsPrivacy} />
+      <Route path="/privacy-policy" component={PrivacyPolicy} />
+      <Route path="/terms-of-service" component={TermsOfService} />
     </Switch>
   );
 }
