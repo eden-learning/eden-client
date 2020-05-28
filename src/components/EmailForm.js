@@ -26,8 +26,8 @@ export default function EmailForm({ className }) {
 
   return (
     <div className={className}>
-      <img className="logo mt-4" src={logo} alt="eden logo" />
-      <h3 className="header-text header-text-top mb-5 mt-5">
+      <img className="logo" src={logo} alt="eden logo" />
+      <h3 className="header-text header-text-top mb-5">
         Create amazing projects
         <br />
         for learners of all ages.
