@@ -499,7 +499,7 @@ function TermsOfService() {
             please let us know by contacting us at
             <a href="mailto:learnwitheden@gmail.com">
               {' '}
-              learnwitheden@gmail.com{' '}
+              learnwitheden@gmail.com
             </a>
             , or by submitting a review of the Publisher or the Third-Party
             Content on its listing page.
@@ -640,7 +640,7 @@ function TermsOfService() {
             at
             <a href="mailto:learnwitheden@gmail.com">
               {' '}
-              learnwitheden@gmail.com{' '}
+              learnwitheden@gmail.com
             </a>
             we will try to help, but unfortunately, we can’t promise that we can
             recover or restore anything.
