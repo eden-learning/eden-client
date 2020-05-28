@@ -20,7 +20,12 @@ export default function Footer() {
             </li>
             <li className="p-2">
               <Link className="text-white" to="/privacy-policy">
-                Terms & Privacy
+                Privacy Policy
+              </Link>
+            </li>
+            <li className="p-2">
+              <Link className="text-white" to="/terms-of-service">
+                Terms Of Service
               </Link>
             </li>
           </ul>
