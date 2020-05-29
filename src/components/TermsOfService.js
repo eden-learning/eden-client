@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
+import '../styles/TermsOfService.css';
 
 function TermsOfService() {
   return (
@@ -10,7 +11,7 @@ function TermsOfService() {
           Effective date: May 13 , 2020
         </p>
         <hr />
-        <p className="mx-3 font-weight-bold small">
+        <p className="mx-3 font-weight-bold">
           IMPORTANT! If you are not of legal age to form a binding contract (in
           many places, this is 18 years old), then you must get your parent or
           guardian to read these terms and agree to them for you, before you use
@@ -20,7 +21,7 @@ function TermsOfService() {
           services. Remember, always get an adult’s permission before going
           online.
         </p>
-        <div className="small">
+        <div>
           <p className="mx-3">
             TERMS OF SERVICE
             <br />
